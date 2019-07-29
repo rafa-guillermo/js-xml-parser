@@ -51,6 +51,9 @@ function JsXMLParser(htmlDocument) {
     return this.scriptReplacer(this.htmlDocument, this.scriptFinder(this.htmlDocument));
   }
   
+  this.scriptify = function(){
+    return "<script>" + this.formattedText = "</script>";
+  
   this.formattedText = this.parse();
   
 }
