@@ -53,6 +53,7 @@ function JsXMLParser(htmlDocument) {
   
   this.scriptify = function(){
     return "<script>" + this.formattedText = "</script>";
+  }
   
   this.formattedText = this.parse();
   
